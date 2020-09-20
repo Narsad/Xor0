@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   padding: 20px;
+   
+}
+.content{
+    position: relative;
+    margin: auto;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 200px;
+    width: 450px;
+    height: 450px;
+    background-color: burlywood;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 450px;
+}
+
+.btn-item{
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 1%;
+    cursor: pointer;
+    background-color: rgb(228, 195, 153);
+    
+}
+
+.play{
+    position: absolute;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40vh;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #000;;
+    align-items: center;
+    border: 5px #000 solid;
+    border-radius: 20px;
+    font-size: 70px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.play-none{
+    display: none;
+}
+
+.content-none{
+    opacity: 0.3;
+}
